@@ -18,8 +18,8 @@ function searchItemCallback() {
 //model
 function getValueToUrl(inputValue) {
     fetch(`https://dummyjson.com/products/search?q=${inputValue}`) 
-    .then(())=>{
-        
+    .then((response))=>{
+        response return.json()
     }
 }
 
