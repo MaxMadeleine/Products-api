@@ -12,9 +12,16 @@ function buildSearch() {
 function searchItemCallback() {
     const inputValue = document.getElementById("searchInput").value;
     console.log(inputValue);
+    getValueToUrl(inputValue)
 
 }
 //model
+function getValueToUrl(inputValue) {
+    fetch(`https://dummyjson.com/products/search?q=${inputValue}`) 
+    .then(())=>{
+        
+    }
+}
 
 buildSearch()
 
